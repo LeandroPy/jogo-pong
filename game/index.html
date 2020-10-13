@@ -4,16 +4,22 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PONG</title>
+	<title>PONG</title>
 
 </head>
 
 <body>
 
-	<div class="canvas">
-        <canvas></canvas>
+	<div>
+		<canvas></canvas>
+	</div>
+
+    <div class="buttons">
+        <button onclick="chooseOtherPlayerToSecondPlayer()">Jogar contra Outro Jogador</button>
+        <button onclick="chooseComputerToSecondPlayer()">Jogar contra Computador</button>
+        <button onclick="resetGame()">Reiniciar Jogo</button>
     </div>
-    
+
 	<script src="./main.js"></script>
 </body>
 
